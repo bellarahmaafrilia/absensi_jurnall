@@ -1,0 +1,22 @@
+<!-- halaman utama formulir -->
+<form action="submit.php" method="POST">
+  <!-- input data -->
+  <input type="text" name="nama" placeholder="Nama" required />
+  <input type="text" name="asal_sekolah" placeholder="Asal Sekolah" required />
+  <input type="date" name="tanggal" required />
+  <select name="keterangan">
+    <option value="Hadir">Hadir</option>
+    <option value="Izin">Izin</option>
+    <option value="Sakit">Sakit</option>
+  </select>
+  <textarea name="kegiatan" placeholder="Kegiatan Praktek" required></textarea>
+
+  <!-- button kirim -->
+  <button type="submit">Kirim</button>
+  <link rel="stylesheet" href="style.css" />
+</form>
+
+<!-- informasi -->
+<div class="footer">
+  by Amandha Bella | Praktekin UPT Komputer | SMK Negeri 1 Batang | IWIMA | 2025
+</div>
